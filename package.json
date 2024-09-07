@@ -1,0 +1,26 @@
+{
+  "name": "kanagawamod",
+  "displayName": "KanagawMod",
+  "description": "KanagawMod",
+  "version": "1.0.0",
+  "publisher": "saintroma",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "kanagawa"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kanagawamod",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawamod.json"
+      }
+    ]
+  }
+}
